@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jitendra Gupta">
+    <meta name="description" content="University Guide | Explore Central University of Haryana">
+    <meta name="keywords" content="Hostel, PG, Alumni, Teach and Learn">
+    <title>CuhSarthi | Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <section id="header">
+        <div class="container">
+        <img src="images/logo3.png" class="logo" alt="logo">
+        <div class="header-text">
+            <h1>Welcome to CuhSarthi<br>Do Explore Your College.</h1>
+            <span class="square"></span>
+            <p>This Website is purely designed for our college buddies.</p>
+            <button class="c-btn">Read More</button>
+            <div class="line">
+                <span class="line-1"></span><br>
+                <span class="line-2"></span><br>
+                <span class="line-3"></span>
+            </div>
+        </div>
+        </div>
+     </section>
+      
+     <nav id="sideNav">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Hostel</a></li>
+        <li><a href="#">Canteen</a></li>
+        <li><a href="#">Beta</a></li>
+       <!--<li><a href="WebDev.html">WebDev</a></li>-->
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+     </nav>
+    <img src="images/menubar.jpeg" id="menuBar" alt="menuBar">
+
+<!--Hostel-->
+<section class="hostel">
+    <h2>Hostels Provided By Our College</h2>
+    <p> <span>Take a took at some listed Hostels.</span></p>
+    <div class="row">
+        <div class="hostel-section">
+            <h3>UG Boys Hostel</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Suscipit fuga ad dolores, qui dignissimos explicabo. </p>
+
+        </div>
+        <div class="hostel-section">
+            <h3>UG Girls Hostel</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Suscipit fuga ad dolores, qui dignissimos explicabo. </p>
+
+        </div>
+        <div class="hostel-section">
+            <h3>PG Hostel</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Suscipit fuga ad dolores, qui dignissimos explicabo. </p>
+
+        </div>
+    </div>
+
+</section>
+
+
+  <section class="campus">
+    <h1> <span>Our College Campus</span> </h1>
+    <p> <span> We have our main college campus divided into three blocks named as BOLCK-1, BLOCK-3, BLOCK-4 in addition with a SOET BLOCK for Engineering Department near the Hostels.</span></p>
+         <div class="row">
+            <div class="campus-col">
+                <img src="images/cuh.jpg" alt="">
+                <div class="layer">
+                    <h3>Haryana</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/cuh.jpg" alt="">
+                <div class="layer">
+                    <h3>Haryana</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/cuh.jpg" alt="">
+                <div class="layer">
+                    <h3>Haryana</h3>
+                </div>
+            </div>
+         </div>
+
+  </section>
+
+<!---Facilities-->
+<section class="facilities">
+    <h1> <span>Facilities Available</span></h1>
+    <p> <span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque corrupti voluptatem libero</span></p>
+     <div class="row">
+        <div class="facilities-col">
+            <img src="images/Library.jpeg" alt="">
+            <h3>World Class Library</h3>
+            <p> <span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque corrupti voluptatem libero</span></p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/playground.jpeg" alt="">
+            <h3>Playground</h3>
+            <p> <span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque corrupti voluptatem libero</span></p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/caffeteria.jpeg" alt="">
+            <h3>Reading Room</h3>
+            <p> <span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque corrupti voluptatem libero</span></p>
+        </div>
+     </div>
+</section>
+
+<section class="testimonials">
+      <h1> <span>Testimonials </span> </h1>
+      <p><span> What students think about our college.</span></p>
+      <div class="row">
+        <div class="testimonials-col">
+            <img src="images/user3.jpeg" alt="">
+            <div>
+                <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque corrupti voluptatem libero</span></p>
+                <h3>Yash Pratap</h3>
+            </div>
+        </div>
+        <div class="testimonials-col">
+            <img src="images/user5.png" alt="">
+            <div>
+                <p> <span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque corrupti voluptatem libero </span></p>
+                <h3>Jay Aryan</h3>
+            </div>
+        </div>
+      </div>
+
+</section >
+
+<section class="cta">
+    <h1> Enroll In Our  <br> College Ambassador Program</h1>
+    <a href="" class="c-btn">CONTACT US</a>
+
+</section>
+
+
+
+
+<!--JavaScript code for function-->
+
+  <script>
+    var menuBar = document.getElementById("menuBar");
+    var sideNav = document.getElementById("sideNav");
+    sideNav.style.right = "-250px";
+    menuBar.onclick = function(){
+        if(sideNav.style.right == "-250px"){
+            sideNav.style.right = "0";
+        }
+        else{
+            sideNav.style.right = "-250px";
+        }
+    }
+
+  </script>
+
+</body>
+</html>
